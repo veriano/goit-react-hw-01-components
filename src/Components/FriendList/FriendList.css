@@ -1,0 +1,22 @@
+.list-friends {
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+}
+.item-friends {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+.item-friends:not(:last-child) {
+  margin-bottom: 10px;
+}
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+}
